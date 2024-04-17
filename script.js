@@ -90,3 +90,9 @@ const suma = (num1, num2) => {
 
 const elemento= document.getElementById('identify')
 console.log(elemento)
+
+axios.get("https://leonardoapi.onrender.com/songs")
+
+.then((data) => {
+    console.log(data)
+})
