@@ -1,0 +1,13 @@
+*{
+    padding: unset;
+    margin: unset;
+    outline: none;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+}
+
+
