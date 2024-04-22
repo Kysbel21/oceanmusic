@@ -46,7 +46,7 @@ const vacio= null
 /**
  * OPERADORES LÓGICOS
  * 
- *      AND o también y
+ * &&     AND o también y
  * ||     OR o también o
  * =    Asignación
  * ==   Comparación igual
