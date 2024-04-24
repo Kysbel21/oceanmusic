@@ -1,17 +1,16 @@
-*{
+* {
     padding: unset;
     margin: unset;
     outline: none;
     font-size: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   
 }
 
-body{
+body {
     display: flex;
-   
+
 }
- 
+
 
 button {
     padding: 5px 10px;
@@ -22,8 +21,20 @@ button {
     cursor: pointer;
 }
 
-.container *{
+/* .container *{
     display: inline-block;
     vertical-align: middle;
     justify-content: space-between;
+} */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.main-content {
+    display: grid;
+    padding: 20px;
 }
