@@ -20,3 +20,9 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+
+.container *{
+    display: inline-block;
+    vertical-align: middle;
+    justify-content: space-between;
+}
