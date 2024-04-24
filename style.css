@@ -38,3 +38,8 @@ button {
     display: grid;
     padding: 20px;
 }
+.main-content__item{
+    display: flex;
+    align-items: center;
+    
+}
