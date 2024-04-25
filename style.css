@@ -85,9 +85,12 @@ header {
     justify-content: center;
     align-items: center;
     height: 5vh;
+    
 }
 .container-reproduction img{
-    margin-bottom: 50px
+    margin-bottom: 50px;
+    margin-top: 30px;
+    
 
 }
 
