@@ -61,8 +61,7 @@ header {
 }
 
 .main-content__item p{
-    font-size: 1em;
-    margin-right: 12px;  
+    font-size: 1em;  
     padding-left: 36px;
 }
 
@@ -86,6 +85,10 @@ header {
     justify-content: center;
     align-items: center;
     height: 5vh;
+}
+.container-reproduction img{
+    margin-bottom: 50px
+
 }
 
 
