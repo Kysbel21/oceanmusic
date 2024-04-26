@@ -50,14 +50,14 @@
 
         </div>
         <div class="container-reproduction">
-            <img src="/assets/Ellipse 2.jpg" alt="Portada de la musica que esta en reproducción">
-            <h2>Morat</h2>
-            <h2>CUANDO NADIE VE</h2>
+            <img id="current-song-img" src="/assets/Ellipse 2.jpg" alt="Portada de la musica que esta en reproducción">
+            <h2 id="current-song-author">Morat</h2>
+            <h2 id="current-song-title">CUANDO NADIE VE</h2>
         </div>
 
-        <div>
-            <img src="/assets/Ellipse 3.jpg" alt="Portada de la musica que esta en reproduccón">
-        </div>
+        <audio autoplay src="" controls id="current-song-audio"></audio>
+
+   
 
     </header>
 
@@ -66,9 +66,10 @@
             <input type="text" name="busqueda" placeholder="Buscar canción...">
             <button type="submit">Buscar</button>
         </form>
-        <section class="track-list">
+
+        <section class="track-list" id="track-list">
            
-            <div id="indentify" class="main-content__item">
+            <!-- <div id="indentify" class="main-content__item">
                 <img src="/assets/Rectangle 5.jpg" alt="Portada de una canción">
                 <div>
                     <p>As it was </p>
@@ -114,7 +115,7 @@
                     <p>Ojos así</p>
                 <p>Shakira</p>
                 </div>
-            </div>
+            </div> -->
         </section>
 
 
