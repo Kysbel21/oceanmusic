@@ -24,6 +24,7 @@ axios.get("https://leonardoapi.onrender.com/songs")
                         document.getElementById('current-song-audio').setAttribute('src', song.path.audio)
                         document.getElementById('current-song-img').setAttribute('src', song.path.front)
                         document.getElementById('current-song-title').innerHTML = song.title
+                        document.getElementById('current-song-author').innerHTML = song.author
                     })
 
 
